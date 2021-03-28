@@ -1,0 +1,267 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+}
+h1 {
+    font-size: 50px;
+}
+h3 {
+    font-size: 40px;
+    padding: 5px 0;
+}
+
+h4 {
+    margin: 0%;
+}
+a {
+    text-decoration: none;
+}
+
+    /* Navigation Bar */
+
+.navbar{
+    position: fixed;
+    width: 100%;
+    background-color: black;
+    z-index: 1;
+
+}
+.nav-item{
+    padding-right: 10px;
+}
+
+    /* Features */
+
+.website-title {
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
+.feature-head{
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: left;
+}
+.feature-para1 {
+    margin-top: 5%;
+    padding-right: 15%;
+    padding-left: 10%;
+    font-size: 20px;
+    text-align: left;
+}
+.btn-quote{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.web-design {
+    height: 430px;
+}
+
+/* skills */
+
+.skills {
+    padding: 10%;
+}
+
+.whykaiwalya{
+    font-size: 40px;
+    text-align: center;
+    line-height: 75px;
+    padding-bottom: 5%;
+}
+
+.fas{
+        color: blue;
+        float: left;
+        padding-right: 20px;
+        padding-bottom: 15px;
+}
+
+.skill-bullet {
+    display: flex;
+    text-align: left;
+    float: right;
+    padding-bottom: 2%;
+}
+
+/* Carousel */
+
+#carousel {
+    background-color: #497194;
+    padding: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    z-index: 0;
+}
+.text-center {
+    text-align: center;
+    padding-top: 5%;
+    
+}
+.recent-heading {
+    padding-bottom: 5%;
+    text-align: center;
+    color: white;
+}
+
+.carousel-control-prev-icon {
+    margin-right: 100px;
+    height: 70px;
+    width: 70px;
+  
+}
+.carousel-control-next-icon {
+     margin-left: 100px  ;
+    height: 70px;
+    width: 70px;
+}
+
+hr {
+    border-top: 10px solid #7A9E9F;
+}
+/* footer */
+
+#footer{
+    padding: 5%;
+    background-color: #7A9E9F;
+    #7A9E9F
+}
+
+.footer-contact {
+    text-align: center;
+}
+
+.contact-me{
+    font-size: 40px;
+    text-align: center;
+    line-height: 75px;
+    padding-bottom: 2%;
+    color: #7b7d83;
+}
+.mail-mobile {
+    padding-bottom: 5%;
+}
+
+.fa-envelope {
+    color:red;
+}
+
+.fa-whatsapp {
+    color: green;
+}
+
+.email-id {
+    color: #000;
+    font-size: 25px;
+}
+
+.mobile-no {
+    color: #000;
+    font-size: 25px;
+}
+
+.email{
+    display: flex;
+    
+}
+
+.email i,a{
+    margin-right: 15px;
+}
+
+.email .email-id,.mobile-no{
+    font-size: 16px;
+}
+
+/* icons */
+
+.icons {
+    background-image: url('../images/location-bg.gif');
+    padding: 5%;
+}
+
+
+
+/* .foot-item {
+    display: inline;
+    margin: 20px;
+} */
+
+.fa {
+    text-decoration: none;
+}
+
+.fa:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.fa-facebook:hover{
+    background: linear-gradient(120DEG,#3B5998, #FFFFFF);
+}
+
+.fa-twitter:hover {
+    background: linear-gradient(45DEG,#66757F,#00ACEE, #36D8FF, #F5F8FA, #FFFFFF);
+}
+.fa-linkedin:hover {
+    background: #00a0dc
+}
+.fa-instagram:hover {
+    background:linear-gradient(45DEG,#405DE6,#5851DB,#833AB4,#C13584,#E1306C,#FD1D1D);
+}
+
+/* copyrights */
+
+#copyright {
+    background-image: url('../images/footer-bg.gif');
+    text-align: center;
+    padding: 30px;
+}
+.fa-copyright {
+    color: white;
+    text-decoration: none;
+}
+
+.social{
+    display:flex;
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+.social .foot-item{
+    margin: 5px;
+  
+}
+
+
+/* mobile view css */
+
+
+@media only screen and (max-width: 480px){
+    #feature {
+        padding-top: 50px;
+    }
+    p {
+        font-size: 16px;
+    }
+    h1{
+        font-size: 28px;
+        font-weight: bold;
+    }
+    h3{
+        font-size: 24px;
+        font-weight: bold;
+    }
+    .whykaiwalya{
+        font-size: 24px;
+        line-height: 35px;
+    }
+    .btn{
+        font-size: 16px;
+    }
+    .contact-container{
+        justify-content: space-evenly;
+        text-align: left !important;
+    }
+}
